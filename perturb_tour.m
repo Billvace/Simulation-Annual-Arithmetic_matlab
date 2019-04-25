@@ -1,8 +1,6 @@
 %%
 function city=perturb_tour(city,n)  
     
-    %随机置换
-    %产生随机扰动
     p1=floor(1+n*rand());
     p2=floor(1+n*rand());
 
